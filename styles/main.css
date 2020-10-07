@@ -1,0 +1,67 @@
+@import "./fishlist.css";
+@import "./travel__quotes.css";
+@import "./travel__locations.css";
+@import "./tipsList.css";
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap');
+
+body{
+    background-color: #B9E6FF;
+    margin: 0;
+    font-family: 'Philosopher';
+}
+
+header {
+    text-align: center;
+    background-color: #7BB0FF;
+    padding: 25px;
+    margin: 0;
+    border-bottom: solid white 8px;
+}
+
+h1 {
+    margin: 0;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    border: 8px solid black;
+}
+
+.fish {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+dl {
+    padding: 0em 2em 1em 0em;
+}
+
+section {
+    padding-bottom: 2em;
+}
+
+.contentContainer {
+    display: flex;
+}
+
+.contentContainer__left {
+    flex: 3;
+    border-right: solid white 8px;
+}
+
+.contentContainer__right {
+    flex: 1;
+    padding-right: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.location__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
