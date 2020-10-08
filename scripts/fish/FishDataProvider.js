@@ -1,5 +1,6 @@
           
 
+// Array of all fish in the collection with key-value pairs
 const fishCollection = [
     {
         species: "Boeseman's rainbowfish (Melanotaenia boesemani)",
@@ -35,6 +36,7 @@ const fishCollection = [
     }
 ]
 
+// Exporting the above array as the function useFish, returning .slice so that it creates a new array, and changes to it won't affect the array here
 export const useFish = () => {
     return fishCollection.slice()
 }
