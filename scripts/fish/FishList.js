@@ -1,6 +1,6 @@
-import { Fish } from './fish/Fish.js'
+import { Fish } from './Fish.js'
 // Imports useFish from FishDataProvider
-import { useFish } from './fish/FishDataProvider.js'
+import { useFish } from './FishDataProvider.js'
 
 // Exports the funsction FishList
 export const FishList = () => {
@@ -15,7 +15,7 @@ export const FishList = () => {
         fishHTMLRepresentations += Fish(fish)
     }
 
-    // Add to exisiting HTML in the content element
+    
     contentElement.innerHTML += `
         <section class="fishList">
         <h2>My Fish</h2>

@@ -1,7 +1,7 @@
 // Importing useFish function from FishDataProvider
 // Commented out, no longer needed
 // import {useFish} from './FishDataProvider.js'
-import { FishList } from './FishList.js'
+import { FishList } from './fish/FishList.js'
 
 // Storing the useFish value in the allThe Fish variable [commented out, duplicated in FishList.js]
 // const allTheFish = useFish()
