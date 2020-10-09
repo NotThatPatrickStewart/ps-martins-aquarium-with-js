@@ -1,8 +1,9 @@
 // Create the array
 
-const tipCollection [
+const tipCollection = [
 
-    { tip: "Those who never lose sight of the shore will never know the terror of being lost at sea",
+    {
+        tip: "Those who never lose sight of the shore will never know the terror of being lost at sea",
         author: "Ricky Dryfeet"
 },
     {
@@ -17,7 +18,6 @@ const tipCollection [
         tip: "Here, fishy fishy fishy fishy",
         author: "Martin"
 }
-
 ]
 
 // Export the array

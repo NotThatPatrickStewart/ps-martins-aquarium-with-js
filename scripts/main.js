@@ -1,7 +1,9 @@
 // Importing useFish function from FishDataProvider
 // Commented out, no longer needed
-// import {useFish} from './FishDataProvider.js'
+// import { useFish } from './FishDataProvider.js'
 import { FishList } from './fish/FishList.js'
+// import { useTips } from './tips/TipList.js'
+import { TipList, } from './tips/TipList.js'
 
 // Storing the useFish value in the allThe Fish variable [commented out, duplicated in FishList.js]
 // const allTheFish = useFish()
@@ -13,3 +15,5 @@ import { FishList } from './fish/FishList.js'
 
 // Execute the function FishList
 FishList()
+// Execute the function TipList
+TipList()
