@@ -1,12 +1,12 @@
 // import from Tips.js and TipsDataProvider
-import { Tips } from './Tips.js'
-import { useTips } from './TipDataProvider'
+import { Tips } from './Tip.js'
+import { useTips } from './TipDataProvider.js'
 
 // export the function TipList
 export const TipList = () => {
     // reference the element
-    const contentElement = document.querySelector("travel__quotes")
-    const tips = useTips
+    const contentElement = document.querySelector(".contentContainer__left")
+    const tips = useTips()
 
     let tipsHTMLRepresentations = ""
     for (const tip of tips) {
