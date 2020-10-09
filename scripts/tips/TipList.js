@@ -5,7 +5,7 @@ import { useTips } from './TipDataProvider'
 // export the function TipList
 export const TipList = () => {
     // reference the element
-    const contentElement = document.querySelector("contentContainer__left")
+    const contentElement = document.querySelector("travel__quotes")
     const tips = useTips
 
     let tipsHTMLRepresentations = ""
