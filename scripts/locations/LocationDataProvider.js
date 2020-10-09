@@ -26,5 +26,5 @@ const locationCollectionArray = [
 ]
 
 export const useLocation = () => {
-    return locationCollectionArray.slice
+    return locationCollectionArray.slice()
 }

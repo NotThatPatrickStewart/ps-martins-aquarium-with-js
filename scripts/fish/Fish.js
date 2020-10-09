@@ -10,11 +10,11 @@ export const Fish = (fishObj) => {
         <p class="fish__name">${fishObj.name}</p>
         <p><img class="fish__image image--card"  src="${fishObj.image}"/></p>
         <p>Length:</p>
-        <p class="fish__length">${fishObj.length}</p>
+        <p class="fish__length">${fishObj.length}"</p>
         <p>Harvest Location:</p>
         <p class="fish__location">${fishObj.location}</p>
         <p>Diet:</p>
         <p class="fish__diet">${fishObj.diet}</p>
-        </div>
+    </div>
     `
 }

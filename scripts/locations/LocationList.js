@@ -1,13 +1,15 @@
-
+import { useLocation } from './LocationDataProvider.js'
+import { Location } from './Location.js'
 
 
 export const LocationList = () => {
-    const contentElement = document.querySelector(".travel__locations")
+    const contentElement = document.querySelector(".contentContainer__left")
 
-    const location = useLocation
+    const locations = useLocation()
+    // console.log(locations)
 
     let locationHTMLRepresentations = ""
-    for const (location of locations) {
+    for (const location of locations) {
         locationHTMLRepresentations += Location(location)
     }
 
