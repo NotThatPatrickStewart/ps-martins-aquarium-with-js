@@ -1,6 +1,5 @@
-import { useLocation } from './LocationDataProvider.js'
 import { Location } from './Location.js'
-
+import { useLocation } from './LocationDataProvider.js'
 
 export const LocationList = () => {
     const contentElement = document.querySelector(".contentContainer__left")
@@ -14,9 +13,10 @@ export const LocationList = () => {
     }
 
     contentElement.innerHTML += `
-    <section class="travel__quotes">
+    <section class="harvest__locations">
     <h2>Go Fish</h2>
-    <div class="location__list">
+    <div class="locationsContainer">
+    ${locationHTMLRepresentations}
     </div>
     </section>
     `

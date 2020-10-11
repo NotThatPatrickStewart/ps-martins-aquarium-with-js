@@ -8,7 +8,7 @@ export const Fish = (fishObj) => {
         <p class="fish__species">${fishObj.species}</p>
         <p>Name:</p>
         <p class="fish__name">${fishObj.name}</p>
-        <p><img class="fish__image image--card"  src="${fishObj.image}"/></p>
+        <p><img class="fish__image image--card" src="${fishObj.image}"/></p>
         <p>Length:</p>
         <p class="fish__length">${fishObj.length}"</p>
         <p>Harvest Location:</p>
