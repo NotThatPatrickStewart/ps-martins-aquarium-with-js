@@ -69,7 +69,13 @@ export const soldierFish = () => {
     }
 }
 
-    // export const nonHolyFish = () => {
-    //     // Any fish not a multiple of 3 or 5
-    //     return regularFish
-    // }
+export const serfFish = () => {
+    const serfs = []
+for (const fish of fishCollection) {
+    if (fish.length % 3 !== 0 && fish.length % 5 !== 0) {
+        serfs.push(fish)
+    }
+}
+        // Any fish not a multiple of 3 or 5
+        return serfs
+    }

@@ -1,6 +1,6 @@
 import { Fish } from './Fish.js'
 // Imports useFish from FishDataProvider
-import { mostHolyFish, soldierFish } from './FishDataProvider.js'
+import { mostHolyFish, serfFish, soldierFish } from './FishDataProvider.js'
 
 const buildFishContainerHTML = (arrayOfFish) => {
     
@@ -31,9 +31,9 @@ export const FishList = () => {
     const soldierFishes = soldierFish()
     const soldierFishHTML = buildFishContainerHTML(soldierFishes)
 
-    // for (const fish of soldierFishes) {
-    //     fishHTMLRepresentations += Fish(fish)
-    // }
+    // HTML for serf fish
+    const serfFishes = serfFish()
+    const serfFishHTML = buildFishContainerHTML(serfFishes)
 
     contentElement.innerHTML += `
         <section class="fishList">
@@ -41,6 +41,7 @@ export const FishList = () => {
         <div class="fishContainer">
         ${holyFishHTML}
         ${soldierFishHTML}
+        ${serfFishHTML}
         </div>
         </section>
 `
