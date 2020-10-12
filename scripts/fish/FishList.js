@@ -1,6 +1,6 @@
 import { Fish } from './Fish.js'
 // Imports useFish from FishDataProvider
-import { useFish } from './FishDataProvider.js'
+import { mostHolyFish } from './FishDataProvider.js'
 
 // Exports the funsction FishList
 export const FishList = () => {
@@ -8,7 +8,7 @@ export const FishList = () => {
     // Get reference to the  `<article class="content">` element
     const contentElement = document.querySelector(".contentContainer__left")
     
-    const fishes = useFish()
+    const fishes = mostHolyFish()
 
     let fishHTMLRepresentations = ""
     for (const fish of fishes) {
