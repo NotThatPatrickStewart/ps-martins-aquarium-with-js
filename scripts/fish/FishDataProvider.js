@@ -52,16 +52,24 @@ export const mostHolyFish = () => {
             holyFish.push(fish)
         }
     }
-// console.log(holyFish)
+    // console.log(holyFish)
     return holyFish
 }
 
 export const soldierFish = () => {
     // 5, 10, 15, 20, 25, etc... fish
-    return soldiers
+    const soldiers = []
+
+    for (const fish of fishCollection) {
+        if (fish.length % 5 === 0 && fish.length %3 !== 0) {
+            soldiers.push(fish)
+        }
+        // console.log(soldiers)
+        return soldiers
+    }
 }
 
-export const nonHolyFish = () => {
-    // Any fish not a multiple of 3 or 5
-    return regularFish
-}
+    // export const nonHolyFish = () => {
+    //     // Any fish not a multiple of 3 or 5
+    //     return regularFish
+    // }
